@@ -1,0 +1,33 @@
+{
+  "name": "jspm-jquery-es6",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansschenker/jspm-jquery-es6.git"
+  },
+  "keywords": [],
+  "author": "Hans Schenker <hans.schenker@windowslive.com> (http://www.netxpert.ch/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hansschenker/jspm-jquery-es6/issues"
+  },
+  "homepage": "https://github.com/hansschenker/jspm-jquery-es6#readme",
+  "jspm": {
+    "dependencies": {
+      "jquery": "npm:jquery@^2.2.4"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "dependencies": {
+    "json-server": "0.8.14"
+  }
+}
