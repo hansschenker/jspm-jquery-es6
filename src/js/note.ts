@@ -1,6 +1,6 @@
 export class Note {
-    //public title: string;
-    constructor(public title: string) {
-        this.title = title;
+    
+    constructor(public id: number,public title: string) {
+        
     }
 }
